@@ -1,0 +1,72 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+
+
+.section-bg:before{
+    content: " ";
+    background-image: url(https://static.pexels.com/photos/545034/pexels-photo-545034.jpeg);
+	background-size:cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+	width: 100%;
+    height:100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.formBody{
+	width:340px;
+	margin:20vh auto;
+	background:#F9F9F9;
+	box-shadow: 0px 1px 6px rgba(67, 101, 139, 0.35);
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	border-bottom: 3px solid #4f7298;
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+.singup-style{
+	margin:10vh auto !important;
+}
+.inpuArea input[type="text"],input[type="password"]{
+	margin-bottom:10px;
+	height:35px;
+}
+.header{
+	height: 50px;
+	background:url("http://www.redroosterfabrics.com/stuff/contentmgr/files/1/d8332a5e5431724290087799787b33bc/slideshow/25181_dkblu1.jpg");
+	padding-top: 5px;
+	/*background-size:cover;*/
+}
+.header img{
+	width: 95%;
+	height: 95px;
+}
+.inpuArea{
+	padding: 15px 30px;
+	border-bottom: 1px solid #ddd;
+	position:relative;
+}
+.inpuArea label{
+	font-weight: normal;
+	font-size: 12px;
+}
+.functionArea{
+	padding: 20px 30px;
+}
+.functionArea input{
+	width:100%;
+	background:#46698F;
+	margin-bottom: 5px;
+}
+.functionArea a{
+	color: #46698F;
+	font-size: 12px;
+	padding-right: 10px;
+}
